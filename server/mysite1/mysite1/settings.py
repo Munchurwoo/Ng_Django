@@ -20,7 +20,6 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
 STATIC_ROOT = os.path.join(PROJECT_ROOT, 'staticfiles')
-STATIC_URL = '/static/'
 
 # Extra places for collectstatic to find static files.
 STATICFILES_DIRS = (
@@ -40,7 +39,7 @@ SECRET_KEY = '4j_&6+l8d=6c9)+at&cd1*he886aj2k5!-!qd6@#sj$-m7fy*u'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['munchurwoo.herokuapp.com']
+# ALLOWED_HOSTS = ['munchurwoo.herokuapp.com']
 
 
 # Application definition
